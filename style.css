@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    background-color: #ca9090;   
+}
+
+nav > div{
+    width: 20%;
+    height: 20px;
+    float: left;  
+}
+
+header > nav > div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+nav > ul{
+    width: 75%;
+    float: right;  
+}
+
+nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    color: #323335;
+    cursor: pointer;
+}
+
+header > nav > div > img{
+    width: 6%;
+    position: absolute;
+    float: left;
+    margin-left: 20px;
+}
+
+ul > li > button {
+    background-color: black;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.container{
+    height: 700px;
+    background-color: #ca9090;
+}
+.header-text{
+    width: 45%;
+    height: 630px;
+    float: right;
+    color: #323335;
+    margin-top: 80px;
+}
+
+h1{
+    font-size: 64px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+h2{
+    font-size: 36px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3{
+    font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-photo img{
+    width: 50%;
+    height: 623px;
+    float: left;
+    margin-top: 5%;
+}
+
+.header-text button{
+    width: 23%;
+    padding: 17px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+
+#stories{
+    height: 1000px;
+    padding: 60px;
+}
+#stories > div:first-child{
+    width: 45%;
+    float: left;
+    margin-top: 100px;
+}
+#stories > div > p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#stories > div:last-child{
+    width: 45%;
+    float: right;
+    margin-top: 200px;
+}
+#stories img{
+    width: 550px;
+    padding: 15px 0 0 0;
+}
+
+#stories button{
+    width: 23%;
+    padding: 17px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+#photos{
+    height: 1500px;
+    background-color: #ca9090;
+    display: inline-block;   
+}
+
+#photos img{
+    width: 320px;
+    padding: 5px;
+    margin: 30px 25px 5px 40px;
+}
+
+#contact{
+    background-color: #875252;
+    height: 750px;
+    padding: 65px;
+}
+
+#contact > div:first-child{
+    width: 47%;
+    float: right;
+}
+
+#contact img{
+    width: 500px;
+    padding: 20px 15px 20px 50px;  
+}
+
+#contact > div:last-child{
+    width: 45%;
+    float: right;
+    color: #fff;
+    padding: 300px 0 0 90px;  
+}
+
+#contact > div > p{
+    font-size: 18px;
+}
+
+#contact > div > button{
+    margin-top: 20px;
+    background-color: #fff;
+    color: #000;
+    width: 35%;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+#contact > div > button:hover{
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.last-section{
+    height: 580px;
+    padding: 160px;
+    padding-top: 100px;
+}
+.col-left{
+    width: 50%;
+    float: left;
+    height: 580px;
+    
+}
+.col-left img{
+    width: 560px;
+    
+}
+.col-right{
+    width: 49%;
+    float: right;
+    height: 580px;
+}
+.col-right img{
+    width: 560px;
+}
+
+.conclusion{
+    background-color: #E4B6B5;
+    height: 160px;
+    padding: 60px;
+    text-align: center;
+    color: #323335
+}
+.conclusion p{
+    font-size: 18px;
+}
+.contacts{
+    height: 100px;
+    padding: 60px;
+}
+.contacts img{
+    width: 30px;
+}
+.contacts > ul{
+    width: 100%;
+    height: 50px;
+    
+}
+.contacts > ul > li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+.contacts > ul > li > a{
+    color: #000;
+}
